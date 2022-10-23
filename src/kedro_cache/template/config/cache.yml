@@ -1,0 +1,8 @@
+# the path to the caching database
+cachedb_dir: .cachdb.sqlite
+
+# the nodes in which caching should be disabled
+ignore_nodes: []
+
+# if all caches should be ignored
+rerun_all: false

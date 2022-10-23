@@ -1,0 +1,26 @@
+{
+  "title": "KedroCacheConfig",
+  "description": "The pydantic model for the `cache.yml` file which configures this plugin.",
+  "type": "object",
+  "properties": {
+    "ignore_nodes": {
+      "title": "Ignore Nodes",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cachedb_dir": {
+      "title": "Cachedb Dir",
+      "default": ".cachdb.sqlite",
+      "type": "string",
+      "format": "path"
+    },
+    "rerun_all": {
+      "title": "Rerun All",
+      "default": false,
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
