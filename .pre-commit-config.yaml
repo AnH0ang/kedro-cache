@@ -83,7 +83,7 @@ repos:
         args: [--nbqa-mutate]
 
   - repo: https://github.com/hakancelik96/unimport
-    rev: 0.9.5
+    rev: 0.12.1
     hooks:
       - id: unimport
         name: unimport
